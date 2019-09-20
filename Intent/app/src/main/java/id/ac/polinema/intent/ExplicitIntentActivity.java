@@ -25,9 +25,9 @@ public class ExplicitIntentActivity extends AppCompatActivity {
 
     public void handleButton(View view){
         String nama = name.getText().toString();
-//        if(nama.equalsIgnoreCase()){
-//            Toast()
-//        }
+        if(nama.equalsIgnoreCase("")){
+            Toast.makeText(this, "Inputan kosong",Toast.LENGTH_SHORT).show();
+        }
         output.setText("Hello "+nama+" Congratulation");
 
     }
