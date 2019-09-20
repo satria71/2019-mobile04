@@ -12,7 +12,6 @@ import android.widget.Toast;
 public class ExplicitIntentActivity extends AppCompatActivity {
     EditText name;
     TextView output;
-    private final String KEY_NAME = "name";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
