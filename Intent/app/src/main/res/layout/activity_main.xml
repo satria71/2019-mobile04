@@ -7,6 +7,7 @@
     android:layout_margin="10dp"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="#E58B78"
     tools:context=".MainActivity">
 
         <Button
